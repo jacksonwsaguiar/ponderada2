@@ -1,0 +1,204 @@
+[0.000000] (-) TimerEvent: {}
+[0.000513] (cartographer_launchers) JobQueued: {'identifier': 'cartographer_launchers', 'dependencies': OrderedDict()}
+[0.000649] (cartographer_launchers) JobStarted: {'identifier': 'cartographer_launchers'}
+[0.013061] (cartographer_launchers) JobProgress: {'identifier': 'cartographer_launchers', 'progress': 'cmake'}
+[0.014134] (cartographer_launchers) Command: {'cmd': ['/home/jacksonaguiar/.local/bin/cmake', '/home/jacksonaguiar/ponderada2/src/cartographer_launchers', '-DCMAKE_INSTALL_PREFIX=/home/jacksonaguiar/ponderada2/install/cartographer_launchers'], 'cwd': '/home/jacksonaguiar/ponderada2/build/cartographer_launchers', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jacksonaguiar'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{d7b20cea-47a9-518c-95a4-c8bd91e2e1c6}'), ('HOME', '/home/jacksonaguiar'), ('OLDPWD', '/home/jacksonaguiar/ponderada2/src'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jacksonaguiar/ponderada2/install:/home/jacksonaguiar/turtlebot3_ws/install:/home/jacksonaguiar/Questoes-Trabalhos-Inteli-M6/ponderada4/workspace/install:/home/jacksonaguiar/Questoes-Trabalhos-Inteli-M6/ponderada3/workspace/install:/home/jacksonaguiar/Questoes-Trabalhos-Inteli-M6/ponderada2/workspace/install:/home/jacksonaguiar/ponderada2/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jacksonaguiar'), ('NAME', 'LAPTOP-O2UEKG23'), ('WSL_INTEROP', '/run/WSL/1414_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jacksonaguiar/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Yarn/bin/:/mnt/c/Program Files/Java/jdk-18.0.2.1/bin:/mnt/c/Program Files/PowerShell/7/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/ProgramData/nvm:/mnt/c/Program Files/nodejs:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Users/jacks/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/jacks/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/jacks/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/jacks/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/tools/dart-sdk/bin:/mnt/c/Users/jacks/AppData/Roaming/Pub/Cache/bin:/mnt/c/Users/jacks/AppData/Local/Yarn/bin:/mnt/c/Program Files/PostgreSQL/13/bin:/mnt/c/Users/jacks/AppData/Local/JetBrains/Toolbox/scripts:/mnt/c/Android/cmdline-tools/tools/bin:/mnt/c/Users/jacks/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/jacks/AppData/Local/Programs/Hyper/resources/bin:/mnt/c/Program Files/nodejs:/mnt/c/Users/jacks/AppData/Roaming/npm:/mnt/c/Users/jacks/AppData/Local/Pub/Cache/bin:/mnt/c/Users/jacks/fvm/default/bin:/snap/bin'), ('WT_SESSION', '8995bacb-147a-42fd-a2b3-ca3b2b03a923'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/jacksonaguiar/ponderada2/src/install/cartographer_launchers:/home/jacksonaguiar/Questoes-Trabalhos-Inteli-M6/ponderada4/workspace/install/image_controller:/home/jacksonaguiar/Questoes-Trabalhos-Inteli-M6/ponderada3/workspace/install/cv_controller:/home/jacksonaguiar/Questoes-Trabalhos-Inteli-M6/ponderada2/workspace/install/robot_controller:/home/jacksonaguiar/turtlebot3_ws/install/turtlebot3_simulations:/home/jacksonaguiar/turtlebot3_ws/install/turtlebot3_gazebo:/home/jacksonaguiar/turtlebot3_ws/install/turtlebot3_fake_node:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/jacksonaguiar/ponderada2/build/cartographer_launchers'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jacksonaguiar/ponderada2/install/cartographer_launchers/lib/python3.10/site-packages:/home/jacksonaguiar/ponderada2/src/install/cartographer_launchers/lib/python3.10/site-packages:/home/jacksonaguiar/Questoes-Trabalhos-Inteli-M6/ponderada4/workspace/build/image_controller:/home/jacksonaguiar/Questoes-Trabalhos-Inteli-M6/ponderada4/workspace/install/image_controller/lib/python3.10/site-packages:/home/jacksonaguiar/Questoes-Trabalhos-Inteli-M6/ponderada3/workspace/install/cv_controller/lib/python3.10/site-packages:/home/jacksonaguiar/Questoes-Trabalhos-Inteli-M6/ponderada2/workspace/build/robot_controller:/home/jacksonaguiar/Questoes-Trabalhos-Inteli-M6/ponderada2/workspace/install/robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('ROS_HOSTNAME', 'localhost'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/jacksonaguiar/turtlebot3_ws/install/turtlebot3_simulations:/home/jacksonaguiar/turtlebot3_ws/install/turtlebot3_gazebo:/home/jacksonaguiar/turtlebot3_ws/install/turtlebot3_fake_node'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[0.043424] (cartographer_launchers) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.097187] (-) TimerEvent: {}
+[0.144473] (cartographer_launchers) StdoutLine: {'line': b'-- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.197384] (-) TimerEvent: {}
+[0.297878] (-) TimerEvent: {}
+[0.398248] (-) TimerEvent: {}
+[0.498603] (-) TimerEvent: {}
+[0.598970] (-) TimerEvent: {}
+[0.622352] (cartographer_launchers) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.626194] (cartographer_launchers) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.636119] (cartographer_launchers) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.653858] (cartographer_launchers) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.678603] (cartographer_launchers) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.699134] (-) TimerEvent: {}
+[0.799459] (-) TimerEvent: {}
+[0.899828] (-) TimerEvent: {}
+[0.923390] (cartographer_launchers) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.925480] (cartographer_launchers) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.999985] (-) TimerEvent: {}
+[1.100339] (-) TimerEvent: {}
+[1.200713] (-) TimerEvent: {}
+[1.301177] (-) TimerEvent: {}
+[1.401537] (-) TimerEvent: {}
+[1.501915] (-) TimerEvent: {}
+[1.602256] (-) TimerEvent: {}
+[1.702614] (-) TimerEvent: {}
+[1.803018] (-) TimerEvent: {}
+[1.903475] (-) TimerEvent: {}
+[2.003832] (-) TimerEvent: {}
+[2.104194] (-) TimerEvent: {}
+[2.204602] (-) TimerEvent: {}
+[2.305012] (-) TimerEvent: {}
+[2.405380] (-) TimerEvent: {}
+[2.505782] (-) TimerEvent: {}
+[2.606143] (-) TimerEvent: {}
+[2.706502] (-) TimerEvent: {}
+[2.806920] (-) TimerEvent: {}
+[2.907334] (-) TimerEvent: {}
+[3.007749] (-) TimerEvent: {}
+[3.108119] (-) TimerEvent: {}
+[3.208517] (-) TimerEvent: {}
+[3.308884] (-) TimerEvent: {}
+[3.409273] (-) TimerEvent: {}
+[3.509662] (-) TimerEvent: {}
+[3.610026] (-) TimerEvent: {}
+[3.710442] (-) TimerEvent: {}
+[3.810866] (-) TimerEvent: {}
+[3.911249] (-) TimerEvent: {}
+[4.011627] (-) TimerEvent: {}
+[4.111984] (-) TimerEvent: {}
+[4.212373] (-) TimerEvent: {}
+[4.312722] (-) TimerEvent: {}
+[4.413123] (-) TimerEvent: {}
+[4.513487] (-) TimerEvent: {}
+[4.613847] (-) TimerEvent: {}
+[4.714208] (-) TimerEvent: {}
+[4.814577] (-) TimerEvent: {}
+[4.914971] (-) TimerEvent: {}
+[5.015424] (-) TimerEvent: {}
+[5.115871] (-) TimerEvent: {}
+[5.216222] (-) TimerEvent: {}
+[5.316589] (-) TimerEvent: {}
+[5.416987] (-) TimerEvent: {}
+[5.517427] (-) TimerEvent: {}
+[5.617801] (-) TimerEvent: {}
+[5.718229] (-) TimerEvent: {}
+[5.818651] (-) TimerEvent: {}
+[5.919081] (-) TimerEvent: {}
+[6.019587] (-) TimerEvent: {}
+[6.119950] (-) TimerEvent: {}
+[6.220344] (-) TimerEvent: {}
+[6.320747] (-) TimerEvent: {}
+[6.421129] (-) TimerEvent: {}
+[6.521499] (-) TimerEvent: {}
+[6.621864] (-) TimerEvent: {}
+[6.722265] (-) TimerEvent: {}
+[6.822677] (-) TimerEvent: {}
+[6.923066] (-) TimerEvent: {}
+[7.023408] (-) TimerEvent: {}
+[7.123791] (-) TimerEvent: {}
+[7.224167] (-) TimerEvent: {}
+[7.324637] (-) TimerEvent: {}
+[7.425003] (-) TimerEvent: {}
+[7.525402] (-) TimerEvent: {}
+[7.625880] (-) TimerEvent: {}
+[7.726280] (-) TimerEvent: {}
+[7.826664] (-) TimerEvent: {}
+[7.927049] (-) TimerEvent: {}
+[8.027421] (-) TimerEvent: {}
+[8.127766] (-) TimerEvent: {}
+[8.228212] (-) TimerEvent: {}
+[8.328833] (-) TimerEvent: {}
+[8.429292] (-) TimerEvent: {}
+[8.529712] (-) TimerEvent: {}
+[8.630140] (-) TimerEvent: {}
+[8.730528] (-) TimerEvent: {}
+[8.830895] (-) TimerEvent: {}
+[8.931310] (-) TimerEvent: {}
+[9.031662] (-) TimerEvent: {}
+[9.132018] (-) TimerEvent: {}
+[9.232403] (-) TimerEvent: {}
+[9.332815] (-) TimerEvent: {}
+[9.433289] (-) TimerEvent: {}
+[9.533696] (-) TimerEvent: {}
+[9.634167] (-) TimerEvent: {}
+[9.734743] (-) TimerEvent: {}
+[9.835188] (-) TimerEvent: {}
+[9.935777] (-) TimerEvent: {}
+[10.036151] (-) TimerEvent: {}
+[10.136590] (-) TimerEvent: {}
+[10.237044] (-) TimerEvent: {}
+[10.337427] (-) TimerEvent: {}
+[10.437791] (-) TimerEvent: {}
+[10.538179] (-) TimerEvent: {}
+[10.638517] (-) TimerEvent: {}
+[10.738873] (-) TimerEvent: {}
+[10.839243] (-) TimerEvent: {}
+[10.939588] (-) TimerEvent: {}
+[11.039939] (-) TimerEvent: {}
+[11.140324] (-) TimerEvent: {}
+[11.240716] (-) TimerEvent: {}
+[11.341070] (-) TimerEvent: {}
+[11.441442] (-) TimerEvent: {}
+[11.541801] (-) TimerEvent: {}
+[11.642307] (-) TimerEvent: {}
+[11.742679] (-) TimerEvent: {}
+[11.843074] (-) TimerEvent: {}
+[11.943419] (-) TimerEvent: {}
+[12.043794] (-) TimerEvent: {}
+[12.144154] (-) TimerEvent: {}
+[12.244548] (-) TimerEvent: {}
+[12.344930] (-) TimerEvent: {}
+[12.445341] (-) TimerEvent: {}
+[12.545707] (-) TimerEvent: {}
+[12.646080] (-) TimerEvent: {}
+[12.746475] (-) TimerEvent: {}
+[12.846960] (-) TimerEvent: {}
+[12.947350] (-) TimerEvent: {}
+[13.047704] (-) TimerEvent: {}
+[13.148095] (-) TimerEvent: {}
+[13.248480] (-) TimerEvent: {}
+[13.348867] (-) TimerEvent: {}
+[13.449243] (-) TimerEvent: {}
+[13.549608] (-) TimerEvent: {}
+[13.649954] (-) TimerEvent: {}
+[13.750325] (-) TimerEvent: {}
+[13.850690] (-) TimerEvent: {}
+[13.951067] (-) TimerEvent: {}
+[14.051460] (-) TimerEvent: {}
+[14.151842] (-) TimerEvent: {}
+[14.252210] (-) TimerEvent: {}
+[14.352577] (-) TimerEvent: {}
+[14.452949] (-) TimerEvent: {}
+[14.553439] (-) TimerEvent: {}
+[14.653966] (-) TimerEvent: {}
+[14.754394] (-) TimerEvent: {}
+[14.854865] (-) TimerEvent: {}
+[14.955223] (-) TimerEvent: {}
+[15.055595] (-) TimerEvent: {}
+[15.155963] (-) TimerEvent: {}
+[15.257197] (-) TimerEvent: {}
+[15.357566] (-) TimerEvent: {}
+[15.457930] (-) TimerEvent: {}
+[15.558292] (-) TimerEvent: {}
+[15.637599] (cartographer_launchers) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[15.658460] (-) TimerEvent: {}
+[15.758832] (-) TimerEvent: {}
+[15.859174] (-) TimerEvent: {}
+[15.892431] (cartographer_launchers) StderrLine: {'line': b"Error parsing '/home/jacksonaguiar/ponderada2/src/cartographer_launchers/package.xml':\n"}
+[15.959383] (-) TimerEvent: {}
+[15.961017] (cartographer_launchers) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[15.961473] (cartographer_launchers) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>\n'}
+[15.961543] (cartographer_launchers) StderrLine: {'line': b'    main()\n'}
+[15.961596] (cartographer_launchers) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main\n'}
+[15.961647] (cartographer_launchers) StderrLine: {'line': b'    raise e\n'}
+[15.961697] (cartographer_launchers) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main\n'}
+[15.961747] (cartographer_launchers) StderrLine: {'line': b'    package = parse_package_string(\n'}
+[15.961832] (cartographer_launchers) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 788, in parse_package_string\n'}
+[15.962346] (cartographer_launchers) StderrLine: {'line': b'    pkg.validate(warnings=warnings)\n'}
+[15.962469] (cartographer_launchers) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 330, in validate\n'}
+[15.962805] (cartographer_launchers) StderrLine: {'line': b"    raise InvalidPackage('\\n'.join(errors), self.filename)\n"}
+[15.962906] (cartographer_launchers) StderrLine: {'line': b"catkin_pkg.package.InvalidPackage: Error(s) in package '/home/jacksonaguiar/ponderada2/src/cartographer_launchers/package.xml':\n"}
+[15.962961] (cartographer_launchers) StderrLine: {'line': b'Invalid email "jacksonwsaguiar" for person "jacksonaguiar"\n'}
+[15.977375] (cartographer_launchers) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):\n'}
+[15.977554] (cartographer_launchers) StderrLine: {'line': b'  execute_process(/usr/bin/python3.10\n'}
+[15.977677] (cartographer_launchers) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[15.977798] (cartographer_launchers) StderrLine: {'line': b'  /home/jacksonaguiar/ponderada2/src/cartographer_launchers/package.xml\n'}
+[15.977965] (cartographer_launchers) StderrLine: {'line': b'  /home/jacksonaguiar/ponderada2/build/cartographer_launchers/ament_cmake_core/package.cmake)\n'}
+[15.978177] (cartographer_launchers) StderrLine: {'line': b'  returned error code 1\n'}
+[15.978401] (cartographer_launchers) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[15.978588] (cartographer_launchers) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[15.978675] (cartographer_launchers) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package.cmake:63 (ament_package_xml)\n'}
+[15.978734] (cartographer_launchers) StderrLine: {'line': b'  CMakeLists.txt:17 (ament_package)\n'}
+[15.978790] (cartographer_launchers) StderrLine: {'line': b'\n'}
+[15.978844] (cartographer_launchers) StderrLine: {'line': b'\x1b[0m\n'}
+[15.978896] (cartographer_launchers) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[15.989375] (cartographer_launchers) CommandEnded: {'returncode': 1}
+[15.990428] (cartographer_launchers) JobEnded: {'identifier': 'cartographer_launchers', 'rc': 1}
+[16.001420] (-) EventReactorShutdown: {}

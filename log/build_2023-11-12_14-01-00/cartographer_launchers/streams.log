@@ -1,0 +1,21 @@
+[0.617s] Invoking command in '/home/jacksonaguiar/ponderada2/src/cartographer_launchers': PYTHONPATH=/home/jacksonaguiar/ponderada2/build/cartographer_launchers/prefix_override:/home/jacksonaguiar/ponderada2/install/cartographer_launchers/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/cartographer_launchers build --build-base /home/jacksonaguiar/ponderada2/build/cartographer_launchers/build install --record /home/jacksonaguiar/ponderada2/build/cartographer_launchers/install.log --single-version-externally-managed
+[0.818s] running egg_info
+[0.818s] writing ../../build/cartographer_launchers/cartographer_launchers.egg-info/PKG-INFO
+[0.819s] writing dependency_links to ../../build/cartographer_launchers/cartographer_launchers.egg-info/dependency_links.txt
+[0.819s] writing entry points to ../../build/cartographer_launchers/cartographer_launchers.egg-info/entry_points.txt
+[0.820s] writing requirements to ../../build/cartographer_launchers/cartographer_launchers.egg-info/requires.txt
+[0.820s] writing top-level names to ../../build/cartographer_launchers/cartographer_launchers.egg-info/top_level.txt
+[0.821s] reading manifest file '../../build/cartographer_launchers/cartographer_launchers.egg-info/SOURCES.txt'
+[0.822s] writing manifest file '../../build/cartographer_launchers/cartographer_launchers.egg-info/SOURCES.txt'
+[0.822s] running build
+[0.823s] running build_py
+[0.823s] running install
+[0.823s] running install_lib
+[0.824s] running install_data
+[0.824s] copying package.xml -> /home/jacksonaguiar/ponderada2/install/cartographer_launchers/share/cartographer_launchers
+[0.825s] running install_egg_info
+[0.826s] removing '/home/jacksonaguiar/ponderada2/install/cartographer_launchers/lib/python3.10/site-packages/cartographer_launchers-0.0.0-py3.10.egg-info' (and everything under it)
+[0.826s] Copying ../../build/cartographer_launchers/cartographer_launchers.egg-info to /home/jacksonaguiar/ponderada2/install/cartographer_launchers/lib/python3.10/site-packages/cartographer_launchers-0.0.0-py3.10.egg-info
+[0.827s] running install_scripts
+[0.844s] writing list of installed files to '/home/jacksonaguiar/ponderada2/build/cartographer_launchers/install.log'
+[0.865s] Invoked command in '/home/jacksonaguiar/ponderada2/src/cartographer_launchers' returned '0': PYTHONPATH=/home/jacksonaguiar/ponderada2/build/cartographer_launchers/prefix_override:/home/jacksonaguiar/ponderada2/install/cartographer_launchers/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/cartographer_launchers build --build-base /home/jacksonaguiar/ponderada2/build/cartographer_launchers/build install --record /home/jacksonaguiar/ponderada2/build/cartographer_launchers/install.log --single-version-externally-managed

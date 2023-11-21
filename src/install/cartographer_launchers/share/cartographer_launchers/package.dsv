@@ -1,0 +1,3 @@
+source;share/cartographer_launchers/hook/pythonpath.ps1
+source;share/cartographer_launchers/hook/pythonpath.dsv
+source;share/cartographer_launchers/hook/pythonpath.sh

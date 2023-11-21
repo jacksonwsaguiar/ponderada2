@@ -1,0 +1,30 @@
+[0.018s] Invoking command in '/home/jacksonaguiar/ponderada2/build/cartographer_launchers': /home/jacksonaguiar/.local/bin/cmake /home/jacksonaguiar/ponderada2/src/cartographer_launchers -DCMAKE_INSTALL_PREFIX=/home/jacksonaguiar/ponderada2/install/cartographer_launchers
+[0.050s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.154s] -- Found rclcpp: 16.0.4 (/opt/ros/humble/share/rclcpp/cmake)
+[0.551s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.553s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.560s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.572s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.590s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.799s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.802s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[14.189s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[17.545s] [31mCMake Error at CMakeLists.txt:7 (find_package):
+[17.545s]   By not providing "Findlaunch.cmake" in CMAKE_MODULE_PATH this project has
+[17.545s]   asked CMake to find a package configuration file provided by "launch", but
+[17.545s]   CMake did not find one.
+[17.545s] 
+[17.545s]   Could not find a package configuration file provided by "launch" with any
+[17.545s]   of the following names:
+[17.545s] 
+[17.545s]     launchConfig.cmake
+[17.545s]     launch-config.cmake
+[17.545s] 
+[17.545s]   Add the installation prefix of "launch" to CMAKE_PREFIX_PATH or set
+[17.545s]   "launch_DIR" to a directory containing one of the above files.  If "launch"
+[17.545s]   provides a separate development package or SDK, be sure it has been
+[17.545s]   installed.
+[17.546s] 
+[17.546s] [0m
+[17.546s] -- Configuring incomplete, errors occurred!
+[17.555s] Invoked command in '/home/jacksonaguiar/ponderada2/build/cartographer_launchers' returned '1': /home/jacksonaguiar/.local/bin/cmake /home/jacksonaguiar/ponderada2/src/cartographer_launchers -DCMAKE_INSTALL_PREFIX=/home/jacksonaguiar/ponderada2/install/cartographer_launchers

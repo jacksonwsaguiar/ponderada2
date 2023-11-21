@@ -1,0 +1,2 @@
+Invoking command in '/home/jacksonaguiar/ponderada2/build/cartographer_launchers': /home/jacksonaguiar/.local/bin/cmake /home/jacksonaguiar/ponderada2/src/cartographer_launchers -DCMAKE_INSTALL_PREFIX=/home/jacksonaguiar/ponderada2/install/cartographer_launchers
+Invoked command in '/home/jacksonaguiar/ponderada2/build/cartographer_launchers' returned '1': /home/jacksonaguiar/.local/bin/cmake /home/jacksonaguiar/ponderada2/src/cartographer_launchers -DCMAKE_INSTALL_PREFIX=/home/jacksonaguiar/ponderada2/install/cartographer_launchers

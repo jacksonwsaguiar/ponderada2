@@ -1,0 +1,39 @@
+[0.547s] Invoking command in '/home/jacksonaguiar/ponderada2/src/cartographer_launchers': PYTHONPATH=/home/jacksonaguiar/ponderada2/src/build/cartographer_launchers/prefix_override:/home/jacksonaguiar/ponderada2/src/install/cartographer_launchers/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/cartographer_launchers build --build-base /home/jacksonaguiar/ponderada2/src/build/cartographer_launchers/build install --record /home/jacksonaguiar/ponderada2/src/build/cartographer_launchers/install.log --single-version-externally-managed
+[0.754s] running egg_info
+[0.755s] creating ../build/cartographer_launchers/cartographer_launchers.egg-info
+[0.755s] writing ../build/cartographer_launchers/cartographer_launchers.egg-info/PKG-INFO
+[0.755s] writing dependency_links to ../build/cartographer_launchers/cartographer_launchers.egg-info/dependency_links.txt
+[0.756s] writing entry points to ../build/cartographer_launchers/cartographer_launchers.egg-info/entry_points.txt
+[0.756s] writing requirements to ../build/cartographer_launchers/cartographer_launchers.egg-info/requires.txt
+[0.756s] writing top-level names to ../build/cartographer_launchers/cartographer_launchers.egg-info/top_level.txt
+[0.756s] writing manifest file '../build/cartographer_launchers/cartographer_launchers.egg-info/SOURCES.txt'
+[0.758s] reading manifest file '../build/cartographer_launchers/cartographer_launchers.egg-info/SOURCES.txt'
+[0.759s] writing manifest file '../build/cartographer_launchers/cartographer_launchers.egg-info/SOURCES.txt'
+[0.760s] running build
+[0.760s] running build_py
+[0.760s] creating /home/jacksonaguiar/ponderada2/src/build/cartographer_launchers/build
+[0.760s] creating /home/jacksonaguiar/ponderada2/src/build/cartographer_launchers/build/lib
+[0.761s] creating /home/jacksonaguiar/ponderada2/src/build/cartographer_launchers/build/lib/cartographer_launchers
+[0.761s] copying cartographer_launchers/__init__.py -> /home/jacksonaguiar/ponderada2/src/build/cartographer_launchers/build/lib/cartographer_launchers
+[0.761s] running install
+[0.761s] running install_lib
+[0.762s] creating /home/jacksonaguiar/ponderada2/src/install/cartographer_launchers/lib/python3.10/site-packages/cartographer_launchers
+[0.762s] copying /home/jacksonaguiar/ponderada2/src/build/cartographer_launchers/build/lib/cartographer_launchers/__init__.py -> /home/jacksonaguiar/ponderada2/src/install/cartographer_launchers/lib/python3.10/site-packages/cartographer_launchers
+[0.763s] byte-compiling /home/jacksonaguiar/ponderada2/src/install/cartographer_launchers/lib/python3.10/site-packages/cartographer_launchers/__init__.py to __init__.cpython-310.pyc
+[0.763s] running install_data
+[0.764s] creating /home/jacksonaguiar/ponderada2/src/install/cartographer_launchers/share
+[0.764s] creating /home/jacksonaguiar/ponderada2/src/install/cartographer_launchers/share/ament_index
+[0.765s] creating /home/jacksonaguiar/ponderada2/src/install/cartographer_launchers/share/ament_index/resource_index
+[0.765s] creating /home/jacksonaguiar/ponderada2/src/install/cartographer_launchers/share/ament_index/resource_index/packages
+[0.765s] copying resource/cartographer_launchers -> /home/jacksonaguiar/ponderada2/src/install/cartographer_launchers/share/ament_index/resource_index/packages
+[0.765s] creating /home/jacksonaguiar/ponderada2/src/install/cartographer_launchers/share/cartographer_launchers
+[0.766s] copying package.xml -> /home/jacksonaguiar/ponderada2/src/install/cartographer_launchers/share/cartographer_launchers
+[0.766s] creating /home/jacksonaguiar/ponderada2/src/install/cartographer_launchers/share/cartographer_launchers/launch
+[0.766s] copying launch/full_launch.py -> /home/jacksonaguiar/ponderada2/src/install/cartographer_launchers/share/cartographer_launchers/launch
+[0.766s] copying launch/navigation_launch.py -> /home/jacksonaguiar/ponderada2/src/install/cartographer_launchers/share/cartographer_launchers/launch
+[0.766s] copying launch/mapping_launch.py -> /home/jacksonaguiar/ponderada2/src/install/cartographer_launchers/share/cartographer_launchers/launch
+[0.766s] running install_egg_info
+[0.767s] Copying ../build/cartographer_launchers/cartographer_launchers.egg-info to /home/jacksonaguiar/ponderada2/src/install/cartographer_launchers/lib/python3.10/site-packages/cartographer_launchers-0.0.0-py3.10.egg-info
+[0.768s] running install_scripts
+[0.784s] writing list of installed files to '/home/jacksonaguiar/ponderada2/src/build/cartographer_launchers/install.log'
+[0.803s] Invoked command in '/home/jacksonaguiar/ponderada2/src/cartographer_launchers' returned '0': PYTHONPATH=/home/jacksonaguiar/ponderada2/src/build/cartographer_launchers/prefix_override:/home/jacksonaguiar/ponderada2/src/install/cartographer_launchers/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/cartographer_launchers build --build-base /home/jacksonaguiar/ponderada2/src/build/cartographer_launchers/build install --record /home/jacksonaguiar/ponderada2/src/build/cartographer_launchers/install.log --single-version-externally-managed
